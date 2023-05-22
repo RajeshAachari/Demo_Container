@@ -3,3 +3,4 @@ RUN yum install httpd -y
 COPY script.sh /
 RUN chmod 777 /script.sh
 ENTRYPOINT ["/script.sh"]
+
